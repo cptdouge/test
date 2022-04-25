@@ -36,7 +36,7 @@ console.log(is123)
 //map - tim va thay doi ptu trong mang -> return 1 mang moi da thay doi ptu
 var testMap = arr.map(function(arr){
     return{
-        tenhs:arr.tenhs,
+        tenhs:arr.tenhs+" new",
         mssv:arr.mssv
     }
 })
@@ -45,7 +45,7 @@ console.log(testMap)
 //reduce - duyet qua mang -> cong don vao gia tri tra ve neu hop le
 
 var testReduce = arr.reduce((temp,element,index)=>{
-    return temp + element.tenhs + '\n';    
+    return temp + element.tenhs + ' ';    
 },'')
 console.log(testReduce)
 
