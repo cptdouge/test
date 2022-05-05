@@ -32,6 +32,10 @@ Diem2D.prototype.getType = function() {
 var b = new Diem2D(3 , 4, 'blue')
 console.log(b.type2)
 console.log(b.getType())
+
+
+var a ='Nguyen Minh Kha'
+console.log(a)
 */
 
   
